@@ -1,11 +1,10 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
-    @Test
+    @org.testng.annotations.Test
     public void shouldNotTellAddToAmount(){
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
@@ -16,7 +15,7 @@ public class CashbackHackServiceTest {
 
     }
 
-    @Test
+    @org.testng.annotations.Test
     public void shouldTellAddToAmount(){
         CashbackHackService service = new CashbackHackService();
 
